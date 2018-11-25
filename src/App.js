@@ -17,7 +17,8 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Hello World Derek West running React App locally.  About to take over the world with this shit broski
+            Keep on keeping on you dirt freak!
           </a>
         </header>
       </div>
