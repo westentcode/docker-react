@@ -4,3 +4,7 @@ services:
 
 before_install:
   - docker build -t derekwwest/docker-react -f Dockerfile.dev .
+
+#adding a comment to try and kick off my travis-ci build
+script:
+  - docker run derekwwest/docker-react npm run test -- --coverage
